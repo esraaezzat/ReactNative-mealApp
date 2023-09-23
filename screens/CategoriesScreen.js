@@ -13,7 +13,8 @@ const CategoriesScreen = ({navigation}) => {
         const pressHandler = () => {
             // navigation fun take name of screen or page we want to navigate to it as a parameter
             navigation.navigate(Screens.MEALS_OVERVIEW, {
-                categoryId: itemData.item.id
+                categoryId: itemData.item.id,
+                title: itemData.item.title
             }); 
         }
         return <CategoryGridTile
