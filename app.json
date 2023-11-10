@@ -17,7 +17,8 @@
     ],
     "ios": {
       "BuildNumber": "1.0.0",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.esraaezzat545.myrecipebook"
     },
     "android": {
       "adaptiveIcon": {
