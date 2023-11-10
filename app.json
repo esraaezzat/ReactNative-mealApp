@@ -24,10 +24,16 @@
         "versionCode": 1,
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.esraaezzat.myrecipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66d92e05-9c3d-4e15-af1a-70a3a2863bbc"
+      }
     }
   }
 }
