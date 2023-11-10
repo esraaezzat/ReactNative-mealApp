@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mealsApp",
+    "name": "My Recipe Book",
     "slug": "mealsApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,12 @@
       "**/*"
     ],
     "ios": {
+      "BuildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
+        "versionCode": 1,
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
